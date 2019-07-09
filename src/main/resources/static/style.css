@@ -1,10 +1,50 @@
-.sidespan{
-    background-color: #524644;
-    width: 15%;
+body{
+    height:100vh;
+    background-color:#ffffff;
+    overflows:hidden;
 }
 
-img{
+#content{
+    height:100%;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.netflix-container, .carousel, img{
     height:10rem;
-    width:20rem;
+    width:17rem;
     border-radius: 10px;
+}
+
+/*img{*/
+    /*height:10rem;*/
+    /*width:17rem;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+.sidespan{
+    /*background-color: #524644;*/
+    width: 15%;
+}
+#gaming-container{
+    flex-direction:column;
+    width:70%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-top: 3rem;
+}
+#gaming-container + div{
+    padding: 3rem;
+
 }
