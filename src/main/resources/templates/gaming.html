@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <!--What is this for below?-->
@@ -9,33 +9,34 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-    <!--<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">-->
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="../static/style.css">
-    <title>gaming</title>
+    <title>Gaming</title>
 </head>
 
 <body style="background-image: url(https://res.cloudinary.com/japes930/image/upload/v1562697561/flow_c7ykgs.jpg);">
+<div th:replace="base :: navlinks"></div>
 <!--<th:block th:replace="~{index::nav}"></th:block>-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Hobbies</a>
-        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
-        <!--<span class="navbar-toggler-icon"></span>-->
-        <!--</button>-->
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="/gaming.html">Gaming</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Workouts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/netflix.html">Netflix</a>
-                </li>
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+        <!--<a class="navbar-brand" href="#">Hobbies</a>-->
+        <!--&lt;!&ndash;<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">&ndash;&gt;-->
+        <!--&lt;!&ndash;<span class="navbar-toggler-icon"></span>&ndash;&gt;-->
+        <!--&lt;!&ndash;</button>&ndash;&gt;-->
+        <!--<div class="collapse navbar-collapse" id="navbarNav">-->
+            <!--<ul class="navbar-nav">-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link active" href="/gaming.html">Gaming</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="/">Workouts</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="/netflix.html">Netflix</a>-->
+                <!--</li>-->
 
-            </ul>
-        </div>
-    </nav>
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</nav>-->
 
 
     <div id="content" style="display:flex";>
@@ -51,7 +52,7 @@
                         <!--<li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>-->
                     <!--</ol>-->
                     <div class="carousel-inner">
-                        <div class="carousel-item view overlay zoom">
+                        <div class="carousel-item">
                             <img src="https://res.cloudinary.com/japes930/image/upload/v1562685625/rb62_shi8d9.jpg" class="d-block w-100" alt="...">
                             <!--Tried to -->
                             <!--<div class="mask flex-center rgba-red-strong">-->

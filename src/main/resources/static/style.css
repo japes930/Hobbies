@@ -20,10 +20,44 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
+#landing-container img{
+    -webkit-filter: grayscale(1);
+    padding:0.5rem;
+    height:500px;
+    /*originally used 500px*/
+}
 
-.netflix-container, .carousel, img{
+#landing-container img:hover{
+    /*filter: none;*/
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+#landing-title{
     height:10rem;
-    width:17rem;
+    width:20rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.95);
+    font-family: "Comic Sans MS";
+    text-align: center;
+    vertical-align: center;
+}
+
+/*.netflix-container, */
+.carousel{
+    height:15rem;
+    width:30rem;
+    border-radius: 10px;
+}
+#gaming-container img{
+    height:15rem;
+    width:30rem;
     border-radius: 10px;
 }
 

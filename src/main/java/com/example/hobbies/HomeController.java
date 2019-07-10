@@ -5,19 +5,19 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class HomeController {
-    @RequestMapping("/index") //when user requests this page
-    public String homePage(){
+    @RequestMapping("/") //when user requests this page
+    public String index(){
         return "index";
     }
 
     @RequestMapping("/gaming") //when user requests this page
-    public String page2(){
+    public String gaming(){
         return "gaming";
     }
 
-    @RequestMapping("/netflix") //when user requests this page
-    public String page3(){
-        return "netflix";
+    @RequestMapping("/sports") //when user requests this page
+    public String sports(){
+        return "sports";
     }
 
 }
